@@ -4,3 +4,6 @@
 [submodule "whack-anya"]
 	path = whack-anya
 	url = https://github.com/Candrandika/whack-anya.git
+[submodule "tug-of-war"]
+	path = tug-of-war
+	url = https://github.com/Candrandika/tug-of-war.git
