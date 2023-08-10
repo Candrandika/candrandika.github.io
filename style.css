@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Poppins;
+    src: url('font/Poppins.ttf');
+}
+
+:root {
+    --col-white: #fff;
+    --col-bg: rgb(186, 186, 186);
+    --col-border: rgb(196, 196, 196);
+    --col-black: rgb(49, 49, 49);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    padding: 20px;
+    place-content: center;
+    background-color: var(--col-bg);
+}
+
+main {
+    border-radius: 20px;
+    background-color: var(--col-white);
+    min-width: 400px;
+}
+
+header.title-head {
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+#sosmed {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#game-list {
+
+}
+
+#game-list > ul {
+
+}
+
+#game-list > ul > li {
+    list-style: none;
+}
+
+#game-list > ul > li > a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: var(--col-black);
+    border-top: 1px solid var(--col-border);
+}
+
+a {
+    text-decoration: none;
+}
