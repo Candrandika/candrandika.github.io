@@ -1,9 +1,18 @@
-[submodule "world-cup-2018"]
-	path = world-cup-2018
-	url = https://github.com/Candrandika/world-cup-2018.git
 [submodule "whack-anya"]
 	path = whack-anya
 	url = https://github.com/Candrandika/whack-anya.git
 [submodule "tug-of-war"]
 	path = tug-of-war
 	url = https://github.com/Candrandika/tug-of-war.git
+[submodule "world-cup-qatar"]
+	path = world-cup-qatar
+	url = https://github.com/Candrandika/world-cup-qatar.git
+[submodule "rain-fall"]
+	path = rain-fall
+	url = https://github.com/Candrandika/rain-fall.git
+[submodule "game-snake"]
+	path = game-snake
+	url = https://github.com/Candrandika/game-snake.git
+[submodule "virus-slayer"]
+	path = virus-slayer
+	url = https://github.com/Candrandika/virus-slayer.git
