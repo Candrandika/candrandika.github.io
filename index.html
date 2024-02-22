@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@candrandika</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
-    <main>
-        <header class="title-head">
-            <h1 class="title">Game List</h1>
-            <h4 class="sub-title">Made By - Candra Andika</h4>
-        </header>
-        <section id="sosmed">
-            <a href="https://www.github.com/candrandika" target="_blank"><i class="bi bi-github"></i></a>
-        </section>
-        <section id="game-list">
-            <ul>
+    <div id="app" class="container mx-auto">
+        <img src="https://play.tailwindcss.com/img/beams.jpg" alt="" class="z-[-1] fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" width="1308" />
+        <div class="z-[-1] fixed inset-0 bg-[url(https://play.tailwindcss.com/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+        <main class="px-3">
+            <header class="text-center mb-5">
+                <h1 class="font-micro text-4xl lg:text-6xl 2xl:text-8xl">Game List</h1>
+                <h4 class="font-extralight text-lg lg:text-2xl 2xl:text-4xl tracking-widest">Made By - Candra Andika</h4>
+            </header>
+            <section id="game-list">
+                <ul class="grid grid-cols-1 gap-3 lg:grid-cols-2 2xl:grid-cols-3">
+                </ul>
+            </section>
+        </main>   
+        <section id="sosmed" class="fixed z-100 top-0 lg:bottom-0 lg:top-auto right-0 rounded-es lg:rounded-es-none lg:rounded-ss overflow-hidden">
+            <ul class="flex">
                 <li>
-                    <a href="https://Candrandika.github.io/pingpong-game/index.html">PingPong</a>
-                    <a href="https://Candrandika.github.io/rain-fall/index.html">Rain Fall</a>
-                    <a href="https://Candrandika.github.io/game-snake/index.html">Snake</a>
-                    <a href="https://Candrandika.github.io/tug-of-war/index.html">Tug Of War</a>
-                    <a href="https://Candrandika.github.io/virus-slayer/index.html">Virus Slayer</a>
-                    <a href="https://Candrandika.github.io/whack-anya/index.html">Whack Anya</a>
-                    <a href="https://Candrandika.github.io/world-cup-qatar/index.html">World Cup Qatar</a>
+                    <a href="https://www.github.com/candrandika" target="_blank" class="py-3 px-5 block text-xl bg-slate-900 text-white"><i class="bi bi-github"></i></a>
                 </li>
             </ul>
         </section>
-    </main>
+    </div>
+
+    <script src="./public/js/gamelist.js"></script>
 </body>
 </html>
