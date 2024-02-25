@@ -19,3 +19,6 @@
 [submodule "pingpong-game"]
 	path = pingpong-game
 	url = https://github.com/Candrandika/pingpong-game.git
+[submodule "matchicon"]
+	path = matchicon
+	url = https://github.com/Candrandika/matchicon

@@ -1,6 +1,11 @@
 // list of games that i ever made
 const games = [
     {
+        name: "Matchicon",
+        url: "https://candrandika.github.io/matchicon/index.html",
+        image_url: "",
+        description: "Memory game - Match the icon"
+    }, {
         name: "PingPong",
         url: "https://Candrandika.github.io/pingpong-game/index.html",
         image_url: "",
