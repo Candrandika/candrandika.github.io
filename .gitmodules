@@ -22,3 +22,6 @@
 [submodule "matchicon"]
 	path = matchicon
 	url = https://github.com/Candrandika/matchicon
+[submodule "plant_vs_zombie"]
+	path = plant_vs_zombie
+	url = https://github.com/Candrandika/plant_vs_zombie.git
