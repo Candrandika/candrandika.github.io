@@ -11,6 +11,11 @@ const games = [
         image_url: "",
         description: "PingPong game for 2 players",
     }, {
+        name: "Plants VS Zombies",
+        url: "https://Candrandika.github.io/plant_vs_zombie/index.html",
+        image_url: "",
+        description: "Copy of Plants vs Zombies",
+    }, {
         name: "Rain Fall",
         url: "https://Candrandika.github.io/rain-fall/index.html",
         image_url: "",
